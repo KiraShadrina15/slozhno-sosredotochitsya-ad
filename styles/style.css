@@ -4,11 +4,10 @@
 
 .header {
   background-image: var(--background-image);
-  object-fit: cover;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
-  padding: 20px 10px 0;
+  padding: 10px 10px 0;
   min-inline-size: 375px;
   max-inline-size: 1440px;
   position: relative;
@@ -90,7 +89,7 @@
   text-wrap: wrap;
   grid-column: span 3;
   grid-row: 3;
-  font-size: clamp(3rem, 12vw, 9rem);
+  font-size: clamp(4rem, 16vw, 11rem);
   line-height: 1;
 }
 
@@ -99,11 +98,11 @@
   background-color: var(--accent-color);
   color: var(--text-color);
   font-family: var(--text-bold);
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .main {
@@ -125,30 +124,30 @@
 }
 
 .information_first-title {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .information_second-title {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--text-color);
   font-family: var(--text-bold);
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .information_third-title {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--text-color);
   font-family: var(--text-regular);
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .information_block-text {
@@ -158,8 +157,8 @@
   display: block;
   inline-size: 100%;
   margin-top: 10px;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .information_accent-text {
@@ -188,10 +187,10 @@
   color: var(--text-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .gallery_img-group {
@@ -271,9 +270,8 @@
 @media (width > 630px) and (width < 1024px) {
   .header {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    margin-right: 20px;
-    margin-left: 20px;
+    grid-template-rows: repeat(12, auto);
+    padding: 20px 20px 0;
   }
 
   .header__theme-menu {
@@ -287,7 +285,7 @@
     margin-top: 173px;
     margin-bottom: 162px;
     text-wrap: nowrap;
-    font-size: clamp(4rem, 15vw, 12rem);
+    font-size: clamp(2.5rem, 10vw, 7rem);
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -416,8 +414,7 @@
   .header {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: (12, 1fr);
-    margin-right: 20px;
-    margin-left: 20px;
+    padding: 10px 10px 0;
   }
  
   .header__theme-menu {
@@ -446,7 +443,7 @@
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-size: clamp(6rem, 20vw, 14rem);
+    font-size:  clamp(2.5rem, 10vw, 7rem);
   }
 
   .header_information {
