@@ -33,7 +33,7 @@
   height: 9px;
   box-shadow: 0 0 4px 2px var(--header-color);
   left: 50px;
-  bottom: 20px;
+  bottom: 7px;
 }
 
 @media (width > 630px) {
