@@ -1,6 +1,6 @@
-/* .page {
-
-} */
+.page {
+  background-attachment: fixed;
+} 
 
 .header {
   background-image: var(--background-image);
@@ -12,7 +12,7 @@
   min-inline-size: 375px;
   max-inline-size: 1440px;
   position: relative;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .header::before {
@@ -58,7 +58,7 @@
 
 .header__theme-menu-button {
   background-color: transparent;
-  border: none; 
+  border: none;
   color: var(--header-color);
   font-family: var(--text-regular);
   text-transform: lowercase;
@@ -90,7 +90,7 @@
   text-wrap: wrap;
   grid-column: span 3;
   grid-row: 3;
-  font-size: clamp(4rem, 15vw, 12rem);
+  font-size: clamp(3rem, 12vw, 9rem);
   line-height: 1;
 }
 
@@ -99,10 +99,11 @@
   background-color: var(--accent-color);
   color: var(--text-color);
   font-family: var(--text-bold);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
+  line-height: 30px;
 }
 
 .main {
@@ -124,30 +125,30 @@
 }
 
 .information_first-title {
-  font-size: 18px;
+  font-size: 22px;
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .information_second-title {
-  font-size: 18px;
+  font-size: 22px;
   color: var(--text-color);
   font-family: var(--text-bold);
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .information_third-title {
-  font-size: 18px;
+  font-size: 22px;
   color: var(--text-color);
-  font-family: var(--text-regular); 
+  font-family: var(--text-regular);
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .information_block-text {
@@ -157,7 +158,8 @@
   display: block;
   inline-size: 100%;
   margin-top: 10px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 .information_accent-text {
@@ -186,9 +188,10 @@
   color: var(--text-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
+  line-height: 30px;
 }
 
 .gallery_img-group {
@@ -229,8 +232,8 @@
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  inline-size: 100%;
-  block-size: 100%;
+  width: 100%;
+  min-height: 100vh;
   position: relative;
 }
 
