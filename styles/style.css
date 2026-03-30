@@ -85,7 +85,7 @@
 }
 
 .header_title {
-  margin-top: 85px;
+  margin-top: 80px;
   margin-bottom: 55px;
   font-family: var(--text-bold);
   color: var(--title-color);
@@ -106,8 +106,8 @@
   font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }
 
 .main {
@@ -144,8 +144,8 @@
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }
 
 .information_third-title {
@@ -154,8 +154,8 @@
   font-family: var(--text-regular);
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }
 
 .information_block-text {
@@ -166,15 +166,15 @@
   inline-size: 100%;
   margin-top: 10px;
   font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.5px;
 }
 
 .information_accent-text:hover {
@@ -200,8 +200,8 @@
   font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }
 
 .gallery_img-group {
