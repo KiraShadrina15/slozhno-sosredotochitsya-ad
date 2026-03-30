@@ -1,4 +1,47 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --background-image: url(/images/cover-image-dark.png);
+  --background-color: #000028;
+  --header-color: #FF0070;
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --text-color: #000028;
+  --information-text-color: #F1B2CE;
+  --text-regular: "IBMPlexMono-Regular", sans-serif;
+  --text-bold: "IBMPlexMono-Bold", sans-serif;
+}
+
+.header_REC-decoration {
+  block-size: 100%;
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  color: var(--header-color);
+  font-family: var(--text-regular);
+  font-size: 18px;
+  position: relative;
+  padding-right: 38px;
+}
+
+.header_REC-decoration::after {
+  content: "";
+  background-color: var(--header-color);
+  border-radius: 50%;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 0 4px 2px var(--header-color);
+  left: 50px;
+  bottom: 7px;
+}
+
+@media (width > 630px) {
+  .header_REC-decoration {
+    grid-column: 6;
+  }
+  
+  @media (width >= 1024px) {
+    .header_REC-decoration::after {
+      bottom: 12px;
+    }
+  }
+}
