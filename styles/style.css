@@ -12,6 +12,7 @@
   min-inline-size: 375px;
   max-inline-size: 1440px;
   position: relative;
+  height: 100%;
 }
 
 .header::before {
@@ -89,7 +90,7 @@
   text-wrap: wrap;
   grid-column: span 3;
   grid-row: 3;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(4rem, 15vw, 12rem);
   line-height: 1;
 }
 
@@ -283,7 +284,7 @@
     margin-top: 173px;
     margin-bottom: 162px;
     text-wrap: nowrap;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(4rem, 15vw, 12rem);
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -442,7 +443,7 @@
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(6rem, 20vw, 14rem);
   }
 
   .header_information {
