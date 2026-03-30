@@ -90,7 +90,7 @@
   grid-column: span 3;
   grid-row: 3;
   font-size: clamp(4rem, 16vw, 11rem);
-  line-height: 1;
+  line-height: 0.8;
 }
 
 .header_information {
@@ -103,6 +103,7 @@
   grid-column: span 3;
   grid-row: 4;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .main {
@@ -129,6 +130,7 @@
   font-family: var(--text-bold);
   font-weight: bold;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .information_second-title {
@@ -139,6 +141,7 @@
   background-color: var(--accent-color);
   margin-top: 20px;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .information_third-title {
@@ -148,6 +151,7 @@
   background-color: var(--accent-color);
   margin-top: 20px;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .information_block-text {
@@ -159,12 +163,14 @@
   margin-top: 10px;
   font-size: 18px;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  letter-spacing: 2px;
 }
 
 .information_accent-text:hover {
@@ -191,6 +197,7 @@
   background-color: var(--accent-color);
   margin-bottom: 10px;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .gallery_img-group {
@@ -285,7 +292,7 @@
     margin-top: 173px;
     margin-bottom: 162px;
     text-wrap: nowrap;
-    font-size: clamp(2.5rem, 10vw, 7rem);
+    font-size: clamp(2.2rem, 9vw, 6rem);
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -443,7 +450,7 @@
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-size:  clamp(2.5rem, 10vw, 7rem);
+    font-size:  clamp(2.2rem, 9vw, 6rem);
   }
 
   .header_information {
