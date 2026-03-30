@@ -1,5 +1,5 @@
 :root {
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: none;
   --background-color: #000028;
   --header-color: #FF0070;
   --title-color: #DB00FF;
@@ -20,6 +20,7 @@
   font-size: 18px;
   position: relative;
   padding-right: 38px;
+  padding-top: 10px;
 }
 
 .header_REC-decoration::after {
@@ -37,6 +38,8 @@
 @media (width > 630px) {
   .header_REC-decoration {
     grid-column: 6;
+    padding-top: 0;
+    padding-right: 28px;
   }
   
   @media (width >= 1024px) {

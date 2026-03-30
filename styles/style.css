@@ -12,6 +12,9 @@
   max-inline-size: 1440px;
   position: relative;
   min-height: 100vh;
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .header::before {
@@ -89,7 +92,7 @@
   text-wrap: wrap;
   grid-column: span 3;
   grid-row: 3;
-  font-size: clamp(4rem, 16vw, 11rem);
+  font-size: clamp(3.5rem, 14vw, 10rem);
   line-height: 0.8;
 }
 
@@ -103,7 +106,7 @@
   grid-column: span 3;
   grid-row: 4;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .main {
@@ -130,7 +133,7 @@
   font-family: var(--text-bold);
   font-weight: bold;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .information_second-title {
@@ -141,7 +144,7 @@
   background-color: var(--accent-color);
   margin-top: 20px;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .information_third-title {
@@ -151,7 +154,7 @@
   background-color: var(--accent-color);
   margin-top: 20px;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .information_block-text {
@@ -163,14 +166,14 @@
   margin-top: 10px;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .information_accent-text:hover {
@@ -197,7 +200,7 @@
   background-color: var(--accent-color);
   margin-bottom: 10px;
   line-height: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
 }
 
 .gallery_img-group {
@@ -292,7 +295,7 @@
     margin-top: 173px;
     margin-bottom: 162px;
     text-wrap: nowrap;
-    font-size: clamp(2.2rem, 9vw, 6rem);
+    font-size: clamp(1.3rem, 6vw, 4rem);
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -421,7 +424,7 @@
   .header {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: (12, 1fr);
-    padding: 10px 10px 0;
+    padding: 20px 20px 0;
   }
  
   .header__theme-menu {

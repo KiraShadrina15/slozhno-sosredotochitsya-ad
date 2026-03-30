@@ -21,6 +21,7 @@
   font-size: 18px;
   position: relative;
   padding-right: 38px;
+  padding-top: 10px;
 }
 
 .header_REC-decoration::after {
@@ -38,6 +39,8 @@
 @media (width > 630px) {
   .header_REC-decoration {
     grid-column: 6;
+    padding-top: 0;
+    padding-right: 28px;
   }
 
   .header_REC-decoration::after {
