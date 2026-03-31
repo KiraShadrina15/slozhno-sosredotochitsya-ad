@@ -106,11 +106,10 @@
   font-family: var(--text-bold);
   font-weight: bold;
   font-size: 18px;
-  font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
   word-spacing: 5px;
   align-self: center;
 }
@@ -138,8 +137,8 @@
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
   word-spacing: 5px;
 }
 
@@ -150,8 +149,8 @@
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 25px;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_third-title {
@@ -161,8 +160,8 @@
   font-weight: normal;
   background-color: var(--accent-color);
   margin-top: 15px;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_block-text {
@@ -174,15 +173,15 @@
   inline-size: 100%;
   margin-top: 10px;
   font-size: 18px;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 1.7px;
+  letter-spacing: 1px;
 }
 
 .information_accent-text:hover {
@@ -208,8 +207,8 @@
   font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 23.2px;
-  letter-spacing: 1.7px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .gallery_img-group {
@@ -258,7 +257,8 @@
 
 .footer_text {
   align-self: center;
-  font-family: var(--text-bold);
+  font-family: 'IBM Plex mono Bold', sans-serif;
+  font-weight: bold;
   color: var(--title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   text-wrap: nowrap;

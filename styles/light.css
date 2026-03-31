@@ -12,8 +12,8 @@
   --accent-color: #FF8DCB;
   --text-color: #000028;
   --information-text-color: #353430;
-  --text-regular: "IBM Plex mono", sans-serif;
-  --text-bold: "IBM Plex mono", sans-serif;
+  --text-bold: 'IBM Plex Mono Bold', monospace;
+  --text-regular: 'IBM Plex Mono Regular', monospace;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,8 +25,8 @@
   --accent-color: #FF8DCB;
   --text-color: #000028;
   --information-text-color: #353430;
-  --text-regular: "IBM Plex mono", sans-serif;
-  --text-bold: "IBM Plex mono", sans-serif;
+  --text-bold: 'IBM Plex Mono Bold', monospace;
+  --text-regular: 'IBM Plex Mono Regular', monospace;
 }
 
   .theme-light .page {

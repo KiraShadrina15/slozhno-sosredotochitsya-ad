@@ -6,8 +6,8 @@
   --accent-color: #FF0070;
   --text-color: #000028;
   --information-text-color: #F1B2CE;
-  --text-regular: "IBMPlexMono-Regular", sans-serif;
-  --text-bold: "IBMPlexMono-Bold", sans-serif;
+  --text-regular: "IBM Plex mono Regular", monospace;
+  --text-bold: "IBM Plex mono Bold", monospace;
 }
 
 .header_REC-decoration {
