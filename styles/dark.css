@@ -32,8 +32,8 @@
   width: 9px;
   height: 9px;
   box-shadow: 0 0 4px 2px var(--header-color);
-  left: 50px;
-  bottom: 7px;
+  left: 40px;
+  top: 15px;
 }
 
 @media (width > 630px) {
@@ -44,12 +44,12 @@
   }
 
   .header_REC-decoration::after {
-    bottom: 6px;
+    top: 6px;
   }
   
   @media (width >= 1024px) {
     .header_REC-decoration::after {
-      bottom: 12px;
+      bottom: 15px;
     }
   }
 }

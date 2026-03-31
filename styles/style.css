@@ -108,9 +108,8 @@
   font-size: 18px;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 22px;
-  letter-spacing: 1px;
-  word-spacing: 5px;
+  line-height: 23px;
+  word-spacing: 3px;
   align-self: center;
 }
 
@@ -137,9 +136,9 @@
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 22px;
-  letter-spacing: 1px;
-  word-spacing: 5px;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+  word-spacing: 3px;
 }
 
 .information_second-title {
@@ -149,8 +148,9 @@
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 25px;
-  line-height: 22px;
-  letter-spacing: 1px;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+  word-spacing: 3px;
 }
 
 .information_third-title {
@@ -160,8 +160,9 @@
   font-weight: normal;
   background-color: var(--accent-color);
   margin-top: 15px;
-  line-height: 22px;
-  letter-spacing: 1px;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+  word-spacing: 3px;
 }
 
 .information_block-text {
@@ -173,15 +174,16 @@
   inline-size: 100%;
   margin-top: 10px;
   font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 1px;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+  word-spacing: 3px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 1px;
+  letter-spacing: 0.9px;
 }
 
 .information_accent-text:hover {
@@ -207,8 +209,8 @@
   font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 22px;
-  letter-spacing: 1px;
+  line-height: 23px;
+  letter-spacing: 0.9px;
 }
 
 .gallery_img-group {
