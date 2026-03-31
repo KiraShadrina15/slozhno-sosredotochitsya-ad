@@ -107,8 +107,9 @@
   font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
+  word-spacing: 5px;
   align-self: center;
 }
 
@@ -135,7 +136,7 @@
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
 }
 
@@ -146,7 +147,7 @@
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
 }
 
@@ -156,7 +157,7 @@
   font-family: var(--text-regular);
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
 }
 
@@ -168,7 +169,7 @@
   inline-size: 100%;
   margin-top: 10px;
   font-size: 18px;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
 }
 
@@ -202,7 +203,7 @@
   font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 23.5px;
+  line-height: 23.2px;
   letter-spacing: 1.7px;
 }
 
