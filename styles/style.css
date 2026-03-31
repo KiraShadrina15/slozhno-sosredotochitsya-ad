@@ -107,9 +107,9 @@
   font-weight: bold;
   grid-column: span 3;
   grid-row: 4;
-  line-height: 20px;
+  line-height: 22px;
   letter-spacing: 0.5px;
-  align-self: center; 
+  align-self: center;
 }
 
 .main {
@@ -135,8 +135,8 @@
   color: var(--accent-color);
   font-family: var(--text-bold);
   font-weight: bold;
-  line-height: 25px;
-  letter-spacing: 0.75px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_second-title {
@@ -146,8 +146,8 @@
   font-weight: bold;
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_third-title {
@@ -156,8 +156,8 @@
   font-family: var(--text-regular);
   background-color: var(--accent-color);
   margin-top: 20px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_block-text {
@@ -168,15 +168,15 @@
   inline-size: 100%;
   margin-top: 10px;
   font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .information_accent-text:hover {
@@ -202,8 +202,8 @@
   font-size: 18px;
   background-color: var(--accent-color);
   margin-bottom: 10px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 
 .gallery_img-group {
@@ -300,7 +300,7 @@
     margin-top: 173px;
     margin-bottom: 162px;
     text-wrap: nowrap;
-    font-size: clamp(1.3rem, 6vw, 4rem);
+    font-size: clamp(3.75rem, 7.2265625vw + 0.28125rem, 4.90625rem);
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -460,7 +460,7 @@
     grid-column: span 5;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-size:  clamp(2.2rem, 9vw, 6rem);
+    font-size: clamp(3.75rem, 7.2265625vw + 0.28125rem, 4.90625rem);
   }
 
   .header_information {
