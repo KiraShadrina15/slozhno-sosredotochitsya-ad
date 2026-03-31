@@ -108,7 +108,7 @@
   grid-column: span 3;
   grid-row: 4;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.7px;
   word-spacing: 5px;
   align-self: center;
 }
@@ -137,7 +137,7 @@
   font-family: var(--text-bold);
   font-weight: bold;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.7px;
   word-spacing: 5px;
 }
 
@@ -147,10 +147,9 @@
   font-family: var(--text-bold);
   font-weight: bold;
   background-color: var(--accent-color);
-  margin-top: 20px;
+  margin-top: 25px;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
-  word-spacing: 5px;
+  letter-spacing: 1.7px;
 }
 
 .information_third-title {
@@ -160,8 +159,7 @@
   background-color: var(--accent-color);
   margin-top: 15px;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
-  word-spacing: 5px;
+  letter-spacing: 1.7px;
 }
 
 .information_block-text {
@@ -173,15 +171,14 @@
   margin-top: 10px;
   font-size: 18px;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
-  word-spacing: 5px;
+  letter-spacing: 1.7px;
 }
 
 .information_accent-text {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.7px;
 }
 
 .information_accent-text:hover {
@@ -208,8 +205,7 @@
   background-color: var(--accent-color);
   margin-bottom: 10px;
   line-height: 23.2px;
-  letter-spacing: 1.6px;
-  word-spacing: 5px;
+  letter-spacing: 1.7px;
 }
 
 .gallery_img-group {
@@ -548,7 +544,7 @@
   }
 
   .gallery {
-    margin-top: 75px;
+    margin-top: 80px;
   }
 
   .gallery_text-title-one {
