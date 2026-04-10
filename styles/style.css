@@ -87,7 +87,7 @@
 }
 
 .header_title {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 55px;
   font-weight: bold;
   color: var(--title-color);
@@ -109,7 +109,7 @@
   grid-column: span 3;
   grid-row: 4;
   line-height: 23.2px;
-  letter-spacing: 1.7px;
+  letter-spacing: 1.5px;
   word-spacing: 5px;
   align-self: center;
 }
@@ -243,7 +243,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 100vh;
   min-height: 668px;
   position: relative;
@@ -254,9 +254,9 @@
   font-weight: bold;
   color: var(--title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
-  white-space: nowrap; 
+  white-space: nowrap;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-align: center; 
+  text-align: center;
 }
 
 .footer::before {

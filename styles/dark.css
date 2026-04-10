@@ -12,11 +12,14 @@
 .theme-dark .page {
   .header_REC-decoration {
   block-size: 100%;
+  inline-size: 100%;
   grid-column: 3;
   grid-row: 1;
-  justify-self: end;
+  display: flex;
+  align-items: start;
+  justify-content: end;
   color: var(--header-color);
-  font-family: var(--text-regular);
+  font-family: var(--text-font);
   font-size: 18px;
   position: relative;
   padding-right: 38px;

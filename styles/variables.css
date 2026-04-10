@@ -13,13 +13,19 @@
   block-size: 100%;
   grid-column: 3;
   grid-row: 1;
-  justify-self: end;
+  align-items: start;
+  justify-content: end;
   color: var(--header-color);
-  font-family: var(--text-regular);
+  font-family: var(--text-font);
   font-size: 18px;
   position: relative;
   padding-right: 38px;
   padding-top: 10px;
+}
+
+.header_REC-decoration-text {
+  display: flex;
+  justify-self: end;
 }
 
 .header_REC-decoration::after {
