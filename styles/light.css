@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --background-image: url(/images/cover-image-light.png);
   --background-color: #FFF1F7;
@@ -12,8 +6,7 @@
   --accent-color: #FF8DCB;
   --text-color: #000028;
   --information-text-color: #353430;
-  --text-regular: "IBMPlexMono-Regular", sans-serif;
-  --text-bold: "IBMPlexMono-Bold", sans-serif;
+  --text-font: 'IBM Plex mono', sans-serif;
 }
 
 @media (prefers-color-scheme: light) {
