@@ -1,12 +1,12 @@
 .page {
-  background-image: var(--background-image) top center;
+  background-image: var(--background-image);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center top;  
   background-repeat: no-repeat;
   font-family: var(--text-font);
-  padding: 10px;
-} 
+  margin: 10px;
+}
 
 .header {
   display: grid;
@@ -42,7 +42,7 @@
 .header__theme-menu {
   inline-size: 100%;
   block-size: 100%;
-  margin-top: 39px; 
+  margin-top: 15px; 
   grid-column: 3;
   grid-row: 2;
 }
@@ -101,7 +101,7 @@
 }
 
 .header_information {
-  margin-bottom: 61px;
+  margin-bottom: 50px;
   background-color: var(--accent-color);
   color: var(--text-color);
   font-size: 18px;
@@ -117,6 +117,7 @@
 .main {
   inline-size: 100%;
   margin-top: 40px;
+  min-height: 5355px;
 }
 
 .information_blocks {
@@ -286,7 +287,7 @@
 
 @media (width > 630px) and (width < 1024px) {
   .page {
-    padding: 20px;
+    margin: 20px;
   }
 
   .header {
@@ -320,6 +321,7 @@
 
   .main {
     margin-top: 60px;
+    min-height: 3682px;
   }
 
   .information_block-one {
@@ -431,7 +433,7 @@
 
 @media (width >= 1024px) {
   .page {
-    padding: 20px;
+    margin: 20px;
   }
 
   .header {
@@ -480,6 +482,7 @@
 
   .main {
     margin-top: 60px;
+    min-height: 3352px;
   }
 
   .information_block-one {
