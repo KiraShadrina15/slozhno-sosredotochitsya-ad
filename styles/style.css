@@ -42,7 +42,7 @@
 .header__theme-menu {
   inline-size: 100%;
   block-size: 100%;
-  margin-top: 40px; 
+  margin-top: 35px; 
   grid-column: 3;
   grid-row: 2;
 }
@@ -95,7 +95,7 @@
   text-wrap: wrap;
   grid-column: span 3;
   grid-row: 3;
-  font-size: clamp(4rem, 15vw, 11rem);
+  font-size: clamp(3.5rem, 13vw, 9.5rem);
   line-height: 0.8;
   letter-spacing: 3px;
 }
@@ -344,7 +344,7 @@
   }
 
   .main {
-    margin-top: 60px;
+    margin-top: 55px;
     min-height: 3682px;
     padding: 0 20px 0;
   }
