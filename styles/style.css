@@ -72,6 +72,14 @@
   display: none;
 }
 
+.theme-auto .header_REC-decoration {
+  color: transparent;
+}
+
+.theme-auto .header_REC-decoration::after {
+  display: none;
+}
+
 .header__theme-menu {
   grid-column: 2;
   grid-row: 2;

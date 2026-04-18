@@ -1,5 +1,6 @@
-.page.theme-dark {
-  --background-image: url(cover-image-dark.png);
+@media (prefers-color-scheme: dark) {
+  :root.theme-dark {
+  --background-image: url(/images/cover-image-dark.png);
   --background-color: #000028;
   --header-color: #FF0070;
   --title-color: #DB00FF;
@@ -8,6 +9,7 @@
   --title-main-color: #FF0070;
   --information-text-color: #F1B2CE;
   --text-font: 'IBM Plex mono', sans-serif;
+}
 }
 
 
