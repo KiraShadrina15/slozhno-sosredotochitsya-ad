@@ -75,7 +75,7 @@
 .header__theme-menu {
   grid-column: 2;
   grid-row: 2;
-  margin-block-start: 40px;
+  margin-block-start: 37px;
   align-self: center;
   justify-self: end;
 }
@@ -131,7 +131,7 @@
   background-color: var(--accent-color);
   color: var(--text-color);
   font-weight: bold;
-  margin-block-start: 55px;
+  margin-block-start: 50px;
   margin-block-end: 66px;
   margin-inline-start: 10px;
 }
@@ -359,7 +359,7 @@
 
   .header_title {
     margin-top: 173px;
-    margin-bottom: 122px;
+    margin-bottom: 112px;
     text-wrap: nowrap;
     font-size: clamp(3.75rem, 7.2265625vw + 0.28125rem, 4.90625rem);
     grid-column: span 5;
@@ -408,7 +408,7 @@
 
   .information_block-two {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .information_first-title-block-two {
@@ -417,7 +417,7 @@
   }
 
   .information_block-second-section {
-    grid-column: span 3;
+    grid-column: span 4;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -481,13 +481,17 @@
   }
 
   .footer {
-    margin: 60px 20px 20px;
+    margin: 60px 20px 0px;
     min-height: 1024px;
   }
 
   .footer_text {
     margin: 463px 0 462px 0;
-    font-size: clamp(6.5rem, 0.5rem + 12vw, 8.5rem);
+    font-size: clamp(6.8rem, 0.8rem + 12.5vw, 8.8rem);
+  }
+
+  .footer::before {
+    bottom: 20px;
   }
 }
 
@@ -545,7 +549,7 @@
 
   .header_title {
     margin-top: 273px;
-    margin-bottom: 74px;
+    margin-bottom: 64px;
     text-wrap: nowrap;
     grid-column: span 5;
     grid-row-start: 6;
@@ -574,7 +578,7 @@
   .information_block-one {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    gap: 10px;
   }
 
   .information_second-title:first-child {
@@ -623,7 +627,7 @@
   .information_block-three {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    gap: 10px;
   }
 
   .information_first-title-block-three {
@@ -679,12 +683,16 @@
   }
 
   .footer {
-    margin: 60px 20px 20px;
+    margin: 60px 20px 0px;
     min-height: 768px;
   }
 
   .footer_text {
     margin: 319px 0;
-    font-size: clamp(6.5rem, 0.5rem + 12vw, 8.5rem);
+    font-size: clamp(6.8rem, 0.8rem + 12.5vw, 8.8rem);
+  }
+
+  .footer::before {
+    bottom: 20px;
   }
 }
