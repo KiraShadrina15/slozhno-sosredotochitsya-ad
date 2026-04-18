@@ -72,14 +72,6 @@
   display: none;
 }
 
-.theme-auto .header_REC-decoration {
-  color: transparent;
-}
-
-.theme-auto .header_REC-decoration::after {
-  display: none;
-}
-
 .header__theme-menu {
   grid-column: 2;
   grid-row: 2;
@@ -331,7 +323,7 @@
   top: 0;
 }
 
-@media (width > 600px) and (width < 1024px) {
+@media (width > 550px) and (width < 1024px) {
   .header {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
