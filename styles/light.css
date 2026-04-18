@@ -1,5 +1,4 @@
-@media (prefers-color-scheme: light) {
-  :root.theme-light {
+.theme-light {
   --background-image: url(/images/cover-image-light.png);
   --background-color: #FFF1F7;
   --header-color: #353430;
@@ -8,7 +7,4 @@
   --text-color: #000028;
   --title-main-color: #353430;
   --information-text-color: #353430;
-  --text-regular: "IBMPlexMono-Regular", sans-serif;
-  --text-bold: "IBMPlexMono-Bold", sans-serif;
-}
 }
