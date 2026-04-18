@@ -1,4 +1,4 @@
-:root.theme-dark {
+.page.theme-dark {
   --background-image: url(cover-image-dark.png);
   --background-color: #000028;
   --header-color: #FF0070;
