@@ -7,4 +7,13 @@
   --text-color: #000028;
   --title-main-color: #353430;
   --information-text-color: #353430;
+  --text-font: 'IBM Plex mono', sans-serif;
+}
+
+.theme-light .header_REC-decoration {
+  color: transparent;
+}
+
+.theme-light .header_REC-decoration::after {
+  display: none;
 }
